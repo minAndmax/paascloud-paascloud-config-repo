@@ -11,10 +11,10 @@ spring:
 
 zipkin:
   collector:
-    rabbitmq:
-      addresses: paascloud-mq-rabbit:5672
-      username: guest
-      password: guest
+      host: localhost
+      port: 5672
+      username: bianyl
+      password: lovestory.2
       queue: zipkin
   storage:
     type: mysql
